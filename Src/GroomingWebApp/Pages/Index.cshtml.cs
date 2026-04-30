@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace groomingScheduler.Pages;
+namespace GroomingWebApp.Pages;
 
 public class IndexModel : PageModel
 {

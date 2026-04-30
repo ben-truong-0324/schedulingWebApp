@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Grooming.Core/Grooming.Core.csproj" />
+  <Project Path="GroomingWebApp/GroomingWebApp.csproj" />
+</Solution>

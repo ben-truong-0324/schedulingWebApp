@@ -1,0 +1,22 @@
+@page
+@model GroomingWebApp.Pages.Dev.ProbeModel
+@{
+    ViewData["Title"] = "Firestore Probe";
+}
+
+<div class="container mt-5">
+    <h2>Firestore Diagnostic Probe</h2>
+    <div class="card p-4 shadow-sm">
+        <p><strong>Tenant ID:</strong> @Model.TenantId</p>
+        <p><strong>Record Count:</strong> <span class="badge bg-primary">@Model.RecordCount</span></p>
+        
+        <hr />
+        
+        <form method="post" asp-page-handler="Wipe">
+            <button type="submit" class="btn btn-danger" 
+                    onclick="return confirm('Are you sure you want to delete ALL data for this tenant?')">
+                Wipe Dev Data
+            </button>
+        </form>
+    </div>
+</div>

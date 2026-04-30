@@ -36,6 +36,8 @@ ScaffoldingReadMe.txt
 # NuGet Symbol Packages
 *.snupkg
 
+**/gcp-key.json
+
 # dotenv environment variables file
 .env
 
